@@ -2,8 +2,3 @@
 base = "myapp/"
 publish = "myapp/build/"
 command = "yarn build"
-
-[[redirects]]
-from = "/*"
-to = "myapp/public/index.html"
-status = 200
