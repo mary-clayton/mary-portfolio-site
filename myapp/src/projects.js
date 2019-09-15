@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import images from "/Users/maryclayton/Documents/LambdaSchool/mary-portfolio-site/myapp/src/Images/img.jpg";
+import images from "./Images/img.jpg";
 
 const Sections = styled.section`
   display: flex;
