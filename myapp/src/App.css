@@ -15,8 +15,8 @@ body {
 
 /* Sidebar */
 .menu {
-width: 20%;
-margin-top: 20%;
+width: 20% !important;
+margin-top: 20% !important;
 overflow: hidden;
 position: fixed;
 z-index: 1000;
