@@ -5,5 +5,5 @@ command = "yarn build"
 
 [[redirects]]
 from = "/*"
-to = "src/index.html"
+to = "myapp/public/index.html"
 status = 200
