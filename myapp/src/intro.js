@@ -58,8 +58,8 @@ export default function Intro () {
 <div className="container">
 
 <h1> Hi, I am Mary Clayton and I am a
-  <p class="typewrite" data-period="2000" data-type='[ "software engineer.", "designer.", "Web Developer." ]'>
-    <span class="wrap"></span>
+  <p className="typewrite" data-period="2000" data-type='[ "software engineer.", "designer.", "Web Developer." ]'>
+    <span className="wrap"></span>
   </p>
 </h1>
 <Projects /> 
