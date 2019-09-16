@@ -12,6 +12,9 @@ body {
   font-family: 'Raleway', sans-serif !important;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Sidebar */
 .menu {
@@ -61,16 +64,39 @@ height: 300px;
   width: 50%;
 }
 
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  margin: 10% 0;
+}
+.foot {
+  display: flex;
+  align-items: center;
+
+}
+
+.info {
+  text-align: left;
+  margin: 5% 0 0 5%;
+}
+
+/* Contact */
+
 .contactform {
-  margin-top: 5%;
+  margin-top: 0%;
   text-align: left;
   margin-left: 5%;
 }
-
+.paraone {
+  color: white;
+}
 .form {
   display: flex;
   flex-flow: wrap;
-  width: 60%;
+  width: 80%;
 
 }
 .inputs {
@@ -105,4 +131,17 @@ height: 300px;
   font-weight: bold;
   background-color: #7083a1;
 
+}
+
+/* Social Media */
+.social {
+  text-align: right;
+  margin-right: 10%;
+}
+.icon {
+  padding: 0.5%;
+}
+
+.fab {
+  color: #7083a1;;
 }

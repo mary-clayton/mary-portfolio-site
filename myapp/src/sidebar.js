@@ -11,11 +11,11 @@ width: 10%;
 export default function SideBar () {
     return (
       <Menu className= "menu">
-        <a className="menu-item" href="#Home">
+        <a className="menu-item" href="#home">
           Home
         </a>
   
-        <a className="menu-item" href="#aboutthedeveloper">
+        <a className="menu-item" href="#intro">
           About The Developer
         </a>
   
@@ -27,7 +27,7 @@ export default function SideBar () {
           Projects
         </a>
   
-        <a className="menu-item" href="#contact">
+        <a className="menu-item" href="#contacts">
           Contact
         </a>
       </Menu>

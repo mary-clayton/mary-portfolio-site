@@ -55,7 +55,7 @@ window.onload = function() {
 };
 export default function Intro () {
     return (
-<div className="container">
+<div className="container" id= "intro">
 
 <h1> Hi, I am Mary Clayton and I am a
   <p className="typewrite" data-period="2000" data-type='[ "software engineer.", "designer.", "Web Developer." ]'>

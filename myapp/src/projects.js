@@ -12,7 +12,7 @@ const Para = styled.p`
 
 export default function Projects() {
   return (
-    <div className="projectone">
+    <div className="projectone" id ="projects">
       <Sections>
         <img className="sea" src={images} alt="sea" />
         <div className="columns">
