@@ -1,50 +1,67 @@
 import React from "react";
 import styled from "styled-components";
-import images from "./Images/img.jpg";
+import imageone from "./Images/empathycalc.png";
+import imagetwo from "./Images/nasapod.png";
+import imagethree from "./Images/reactwars.png";
 
-const Sections = styled.section`
-  display: flex;
-`;
 const Para = styled.p`
-  color: white;
+  color: black;
   font-size: 1rem;
 `;
-
+const ButtonOne = styled.button `
+border-radius: 6px;
+box-shadow: 4px 4px 12px #7083a3;
+border: 0px;
+color: white;
+background-color: #a1b5d6;
+height: 30px;
+`
+const Links = styled.a `
+text-decoration: none;
+color: white;
+:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+`
 export default function Projects() {
   return (
     <div className="projectone" id ="projects">
-      <Sections>
-        <img className="sea" src={images} alt="sea" />
+      
+      <div className="cardone">
+        <img className="images" src={imageone} alt="sea" />
         <div className="columns">
-          <h2>My Great Idea Page</h2>
+          <h2>Domestic Violence Empathy Calculator</h2>
+          <h6>Technologies used: </h6>
           <Para>
-            This is my first project I worked on at Lambda School. It contains a
-            nav bar, a logo, a header with a page, two rows of content, a middle
-            image, and a contact footer with copyright text. I used pain plain
-            HTML, CSS, and responsive design on this project.
+          HTML, CSS, Responsive Design, React.js, GraphSL
           </Para>
+          <ButtonOne><Links href="https://github.com/DV-Empathy-Builder/landing-page-merge-fix">View More</Links></ButtonOne>
+          </div>
         </div>
-      </Sections>
-      <Sections></Sections>
-      <Sections>
-        <img className="sea" src={images} alt="sea" />
+        <div className="cardtwo">
+        <img className="images" src={imagetwo} alt="nasa pod" />
         <div className="columns">
           <h2>Nasa Photo of the Day</h2>
+          <h6>Technologies used: </h6>
           <Para>
-            We did this for our first sprint challenge. It contains a nav bar, a
-            logo, an about section, two rows (Strategy, How We Work, Places We
-            Work, and Collaboration, a "Let's Work Together" section, and a
-            bottom nav bar. I used plain HTML and CSS on this project.
+          Javascript, React.js, CSS
           </Para>
+          <ButtonOne><Links href="https://github.com/DV-Empathy-Builder/landing-page-merge-fix">View More</Links></ButtonOne>
         </div>
-      </Sections>
-      <Sections>
-        <img className="sea" src={images} alt="sea" />
+      </div>
+      <div className="cardthree">
+        <img className="images" src={imagethree} alt="react wars" />
         <div className="columns">
           <h2>React Wars</h2>
-          <Para>lorem ipsum</Para>
+          <h6>Technologies used: </h6>
+          <Para>
+          Javascript, React.js, CSS
+          </Para>
+          <ButtonOne><Links href="https://github.com/DV-Empathy-Builder/landing-page-merge-fix">View More</Links></ButtonOne>
         </div>
-      </Sections>
+      </div>
     </div>
   );
 }
