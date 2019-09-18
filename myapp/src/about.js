@@ -9,24 +9,19 @@ export default function About() {
     width: 95%;
   `;
   return (
-    <div className="about">
+    <div className="about" id="aboutme">
       <h2 className="title">About</h2>
       <Para className="para">
-        Mission-driven Full Stack Developer who is passionate about
+        A well-rounded Full Stack Developer who is passionate about
         brainstorming with a connective team building software and web
         applications for a better future.
         <br></br>
-        <br></br>
-        Bird bird bird bird bird bird human why take bird out i could have eaten
-        that lick the plastic bag so warm up laptop with butt lick butt fart
-        rainbows until owner yells pee in litter box hiss at cats lick master's
-        hand at first then bite because im moody yet curl up and sleep on the
-        freshly laundered towels and grass smells good so eat too much then
-        proceed to regurgitate all over living room carpet while humans eat
-        dinner. Soft kitty warm kitty little ball of furr. I am the best i cry
-        and cry and cry unless you pet me, and then maybe i cry just for fun for
-        headbutt owner's knee, for get suspicious of own shadow then go play
-        with toilette paper stare at ceiling light munch, munch, chomp, chomp.
+        <br></br>I always am driven to new opportunities and challenges. Through
+        my passion for UI design and web development, I am have taken the
+        opportunity to work as a software developer in training at Lambda School and 
+        I have a Bachelor's degree in digital design with an emphasis of Animation.
+        As a web developer, I bring my innovative, organized, and sociable nature in order
+        to create web applications as well as software to make a difference. 
       </Para>
     </div>
   );

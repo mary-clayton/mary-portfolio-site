@@ -23,11 +23,11 @@ export default function SideBar () {
           Home
         </a>
   
-        <a className="menu-item" href="#intro">
+        <a className="menu-item" href="#aboutme">
           About
         </a>
 
-        <a className="menu-item" href="#intro">
+        <a className="menu-item" href="#experience">
           Experience
         </a>
 

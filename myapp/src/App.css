@@ -52,7 +52,33 @@ max-width: 100vw !important;
 margin-left: 15% !important;
 
 }
+/* Skills */
+.skills {
+  margin-top: 15%;
+}
+.skillcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skillcard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height:200px;
+  background: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  box-shadow: 5px 5px 5px #7e90ad;
+}
 
+.elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Projects */
 h1 {
 color: rgb(231, 227, 227);
 margin-top: 3%!important;
@@ -77,13 +103,13 @@ height: 280px;
 
 .projectone {
   text-align: left !important;
-  margin-top: 40%;
+  margin-top: 12%;
   margin-left: -1.4%;
 }
 
 .columns {
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
   width: 50%;
 }
 
@@ -114,7 +140,7 @@ height: 280px;
   display: flex;
   flex-flow: wrap;
   align-items: center;
-  margin: 10% 0;
+  margin: 3% 0;
 }
 .foot {
   display: flex;

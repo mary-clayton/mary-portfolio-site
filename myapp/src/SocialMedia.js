@@ -4,8 +4,8 @@ function SocialMedia () {
     return (
         <div className= "social">
 <h4>Address</h4>
-<address>12345 Somewhere Road #654
-Nashville, TN 00000-0000
+<address>7810 W Peoria Ave lot 69
+<br></br>85345, Peoria, AZ
 USA</address>
 <h4>Email</h4>
 <p>mary.cathlean@gmail.com</p>

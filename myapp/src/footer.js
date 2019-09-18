@@ -8,9 +8,7 @@ export default function Footer () {
         <div className="info">
         <h2>Get in Touch</h2>
       <p className="paraone">
-        Attempt to leap between furniture but woefully miscalibrate and
-        bellyflop onto the floor; what's your problem? i meant to do that now i
-        shall wash myself intently meow in empty rooms. 
+        Please leave your name, email, and message and I will get back to you within 48 hours. Only professional and business inqueries allowed.
         </p>
         </div>
         <div className="foot">
